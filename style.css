@@ -29,7 +29,7 @@ h1 {
   font-size: 30px;
 }
 
-.player-container {
+.game-container {
   margin: 50px;
 }
 
@@ -74,7 +74,7 @@ h2 {
     font-size: 24px;
   }
 
-  .player-container {
+  .game-container {
     margin: 50px 0 25px 25px;
   }
 
@@ -98,7 +98,7 @@ h2 {
     font-size: 22px;
   }
 
-  .player-container {
+  .game-container {
     margin: 43px 0 25px 20px;
   }
 
