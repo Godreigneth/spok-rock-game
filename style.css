@@ -14,7 +14,13 @@ body {
   align-items: center;
 }
 
-
+.game-subContainer {
+    width: 530px;
+    height: 600px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+}
 
 .header {
   background: dodgerblue;
@@ -29,7 +35,7 @@ h1 {
   font-size: 30px;
 }
 
-.game-container {
+.game-subContainer {
   margin: 50px;
 }
 
@@ -74,7 +80,7 @@ h2 {
     font-size: 24px;
   }
 
-  .game-container {
+  .game-subContainer {
     margin: 50px 0 25px 25px;
   }
 
@@ -98,7 +104,7 @@ h2 {
     font-size: 22px;
   }
 
-  .game-container {
+  .game-subContainer {
     margin: 43px 0 25px 20px;
   }
 
