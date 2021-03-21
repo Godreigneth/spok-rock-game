@@ -4,11 +4,15 @@ const computerScoreEl = document.getElementById('computerScore');
 const computerChoiceEl = document.getElementById('computerChoice');
 const resultText = document.getElementById('resultText');
 
-const playRock =document.getElementById('playerRock');
-const playPaper =document.getElementById('playerPaper');
-const playScissors =document.getElementById('playerScissors');
-const playLizard =document.getElementById('playerLizard');
-const playSpock =document.getElementById('playerSpock');
+const playerRock =document.getElementById('playerRock');
+const playerPaper =document.getElementById('playerPaper');
+const playerScissors =document.getElementById('playerScissors');
+const playerLizard =document.getElementById('playerLizard');
+const playerSpock =document.getElementById('playerSpock');
+
+
+
+
 
 const choices = {
   rock: { name: 'Rock', defeats: ['scissors', 'lizard'] },
