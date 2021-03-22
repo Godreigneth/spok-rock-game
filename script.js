@@ -58,6 +58,8 @@ function select(playerChoice) {
             playerRock.classList.add('selected');
             playerChoiceEl.textContent = ' --- Spock';
             break;
+        default:
+            break;
 
     }
 
