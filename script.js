@@ -28,3 +28,13 @@ const choices = {
   spock: { name: 'Spock', defeats: ['scissors', 'rock'] },
 };
 
+// Passing player selection value and styling icons
+function select(playerChoice) {
+  // Add 'selected' styling & playerChoice
+  switch (playerChoice) {
+      case 'rock':
+          playerRock.classList.add('selected');
+          playerChoiceEl.textContent = ' --- Rock';
+          break;
+  }
+}
